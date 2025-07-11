@@ -15,7 +15,7 @@ from roadmap_tool import get_career_roadmap
 # Config
 load_dotenv()
 external_client = AsyncOpenAI(
-    api_key=os.getenv("GEMINI_API_KEY"),# Replace this if using .env
+    api_key=os.getenv("GEMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
